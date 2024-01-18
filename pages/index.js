@@ -38,7 +38,7 @@ function Home() {
       <div>
         <p>
           Auto incrementing value. The counter won't reset after edits or if
-          there are errors.
+          there are errors. Sup guys
         </p>
         <p>Current value: {count}</p>
       </div>
