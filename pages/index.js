@@ -28,7 +28,9 @@ function Home() {
 
   return (
     <main className={styles.main}>
-      <h1>TEST FROM LIVESHARE Refresh Demo</h1>
+      <h1 className="text-3xl font-bold underline">
+        Hello world!
+      </h1>
       <p>
         Fast Refresh is a Next.js feature that gives you instantaneous feedback
         on edits made to your React components, without ever losing component
@@ -52,7 +54,7 @@ function Home() {
         <p>
           The button below will throw 2 errors. You'll see the error overlay to
           let you know about the errors but it won't break the page or reset
-          your state.
+          your state. This is a new commit from my space. Let's try this again.
         </p>
         <Button
           onClick={(e) => {
