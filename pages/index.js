@@ -10,6 +10,13 @@ function throwError() {
   )
 }
 
+// HI!
+
+/*
+  WOW!!
+*/
+
+//heyyyyyyy
 function Home() {
   const [count, setCount] = useState(0)
   const increment = useCallback(() => {
@@ -55,6 +62,7 @@ function Home() {
           The button below will throw 2 errors. You'll see the error overlay to
           let you know about the errors but it won't break the page or reset
           your state. This is a new commit from my space. Let's try this again.
+          WE'RE BALLING 
         </p>
         <Button
           onClick={(e) => {
