@@ -2,6 +2,7 @@ import { useCallback, useEffect, useState } from 'react'
 import Button from '../components/Button'
 import ClickCount from '../components/ClickCount'
 import styles from '../styles/home.module.css'
+import { DatePicker } from 'antd';
 
 function throwError() {
   console.log(
@@ -11,10 +12,10 @@ function throwError() {
 }
 
 // HI!
-
-/*
+/*aaaaaasdasdasd
   WOW!!
 */
+
 
 //heyyyyyyy
 function Home() {
@@ -43,6 +44,7 @@ function Home() {
         on edits made to your React components, without ever losing component
         state.
       </p>
+      <DatePicker />
       <hr className={styles.hr} />
       <div>
         <p>
@@ -74,6 +76,77 @@ function Home() {
         </Button>
       </div>
       <hr className={styles.hr} />
+      <div>
+        <p>
+          The button below will throw an error and reset the counter to 0. This
+          is because the error is thrown in an event handler that is not wrapped
+          in a useCallback hook.
+        </p>
+        <Button
+          onClick={(e) => {
+            setTimeout(() => document.parentNode(), 0)
+            throwError()
+          }}
+        >
+          Throw an Error and Reset Counter
+        </Button>
+      </div>
+      {/* list of cool websites to visit */}
+      <ul>
+        <li>
+          <a href="https://nextjs.org/docs/basic-features/fast-refresh">
+            Next.js Fast Refresh Documentation
+          </a>
+        </li>
+        <li>
+          <a href="
+          https://nextjs.org/docs/basic-features/data-fetching">
+            Next.js Data Fetching Documentation
+          </a>
+
+        </li>
+        <li>
+          <a href="https://nextjs.org/docs/basic-features/typescript">
+            Next.js TypeScript Documentation
+          </a>
+        </li>
+        <li>
+          <a href="https://nextjs.org/docs/basic-features/built-in-css-support">
+            Next.js Built-in CSS Support Documentation
+          </a>
+        </li>
+        <li>
+          <a href="https://nextjs.org/docs/basic-features/built-in-css-support">
+            Next.js Built-in CSS Support Documentation
+          </a>
+        </li>
+        <li>
+          <a href="https://nextjs.org/docs/basic-features/built-in-css-support">
+            Next.js Built-in CSS Support Documentation
+          </a>
+        </li>
+        <li>
+          <a href="https://nextjs.org/docs/basic-features/built-in-css-support">
+            Next.js Built-in CSS Support Documentation
+          </a>
+        </li>
+        <li>
+          <a href="https://nextjs.org/docs/basic-features/built-in-css-support">
+            Next.js Built-in CSS Support Documentation
+          </a>
+        </li>
+        <li>
+          <a href="https://nextjs.org/docs/basic-features/built-in-css-support">
+            Next.js Built-in CSS Support Documentation
+          </a>
+        </li>
+        <li>
+          <a href="https://nextjs.org/docs/basic-features/built-in-css-support">
+            Next.js Built-in CSS Support Documentation
+          </a>
+        </li>
+      </ul>
+      <DatePicker /><DatePicker /><DatePicker /><DatePicker /><DatePicker /><DatePicker /><DatePicker /><DatePicker /><DatePicker /><DatePicker /><DatePicker /><DatePicker /><DatePicker /><DatePicker /><DatePicker /><DatePicker /><DatePicker /><DatePicker /><DatePicker /><DatePicker /><DatePicker /><DatePicker /><DatePicker /><DatePicker /><DatePicker /><DatePicker /><DatePicker /><DatePicker /><DatePicker /><DatePicker /><DatePicker /><DatePicker /><DatePicker /><DatePicker /><DatePicker /><DatePicker /><DatePicker /><DatePicker /><DatePicker /><DatePicker /><DatePicker /><DatePicker /><DatePicker /><DatePicker /><DatePicker />
     </main>
   )
 }
