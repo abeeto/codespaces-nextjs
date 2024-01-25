@@ -33,7 +33,7 @@ function Home() {
       clearInterval(r)
     }
   }, [increment])
-let variableName = 'hello';
+  let variableName = 'hello';
   return (
     <main className={styles.main}>
       <h1 className="text-3xl font-bold underline">
