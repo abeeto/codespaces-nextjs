@@ -10,7 +10,7 @@ function throwError() {
     document.body()
   )
 }
-
+//made some comment
 // HI!
 /*aaaaaasdasdasdasdasd
   WOW!!awdawdawd
@@ -33,7 +33,7 @@ function Home() {
       clearInterval(r)
     }
   }, [increment])
-
+  le
   return (
     <main className={styles.main}>
       <h1 className="text-3xl font-bold underline">
@@ -65,6 +65,7 @@ function Home() {
           let you know about the errors but it won't break the page or reset
           your state. This is a new commit from my space. Let's try this again.
           WE'RE BALLING 
+          
         </p>
         <Button
           onClick={(e) => {
